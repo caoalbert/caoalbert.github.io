@@ -632,7 +632,6 @@ section {
  .intro {
   position: absolute;
   top: 27.5%;
-  height 100%;
   margin-left: auto;
   color: #24325d;
 }
@@ -640,11 +639,10 @@ section {
 .introbody {
   position: absolute;
   top: 32.5%;
-  left: 300px
   padding-right: 2em;
   padding-top: 0.5em;
   color: #24325d;
-  min-left: 200px;
   max-width: 700px;
   min-width: 500px;
 }
+
