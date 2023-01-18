@@ -30,6 +30,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+  color: #24325d;
 }
 
 /*--------------------------------------------------------------
@@ -333,7 +334,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
-  margin-top: 50px;
+  margin-top: -70px;
   color: #24325d;
 }
 
@@ -606,43 +607,31 @@ section {
 }
 
 
-/* If you want the content centered horizontally and vertically */
-.leftcol {
-  position: absolute;
-  top: 35%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 
 /* Style the image inside the centered container, if needed */
-
-.leftcol img {
-  width: 200px;
+.profile {
+  margin-top: 250px;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
   border-radius: 50%;
+  width: 200px;
 }
 
-.tab {
-  position: absolute;
-  margin-top: 1em;
-  left: 22.5px;
-  color: #24325d;
- }
 
- .intro {
-  position: absolute;
-  top: 27.5%;
-  margin-left: auto;
-  color: #24325d;
-}
 
 .introbody {
-  position: absolute;
-  top: 32.5%;
   padding-right: 2em;
-  padding-top: 0.5em;
+  margin-left: 10%;
   color: #24325d;
-  max-width: 700px;
-  min-width: 500px;
+  max-width: 100%;
 }
 
+
+
+.education {
+  padding-right: 2em;
+  margin-left: 10%;
+  color: #24325d;
+  max-width: 100%;
+}
