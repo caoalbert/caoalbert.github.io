@@ -652,3 +652,10 @@ section {
 .quarto-listing { 
   padding-bottom: 0em;
 }
+
+.level2 {
+  margin-left: 10%;
+  margin-top: 50px;
+  margin-right: 10%;
+  color: #24325d;
+}
