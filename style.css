@@ -635,3 +635,20 @@ section {
   color: #24325d;
   max-width: 100%;
 }
+
+
+.thumbnail {
+  display:inline-block;
+  vertical-align:top;
+}
+
+.compress {
+  padding: 0;
+  padding-left: 10px;
+  display:inline-block;
+  width: 80%;
+}
+
+.quarto-listing { 
+  padding-bottom: 0em;
+}
